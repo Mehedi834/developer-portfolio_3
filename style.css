@@ -1,5 +1,41 @@
-h1{
-    color: Red;
-    font-weight: bold;
-    text-align: center;
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    }
+.top-container{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color:orange;
+}
+.half-width img{
+    width: 100%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+
+}
+
+
+
